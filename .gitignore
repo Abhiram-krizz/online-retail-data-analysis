@@ -7,4 +7,15 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local dataset files
+data/*.xlsx
+data/*.xls
+
+# Environment files
+.env
+*.env
